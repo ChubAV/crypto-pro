@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crypto-pro"
+version = "0.1.0"
+description = ""
+authors = ["ChubAV <chub.aleksandr.v@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = {extras = ["all"], version = "^0.75.1"}
+aiofiles = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

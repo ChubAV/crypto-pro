@@ -1,0 +1,11 @@
+# macos
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Exclude machine-specific vs code settings
+.vscode/settings.json
+
